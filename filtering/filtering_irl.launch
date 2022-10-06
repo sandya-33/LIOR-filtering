@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="filtering" type="LIOR" name="realtime_template" output="screen"/>
+    <arg name="_incoming" default="/incoming/pointcloud2"/>
+    <arg name="_outgoing" default="/outgoing/pointcloud2"/>
+    
+</launch>
